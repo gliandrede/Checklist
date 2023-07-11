@@ -1,0 +1,141 @@
+@import "checkbox.css"; /* Using a string */
+h1{
+	text-align: center;
+	font-size: 3vw;
+	color: var(--azul);
+}
+h2{
+	text-align: center;
+	font-size: 2vw;
+	color: var(--azul);
+}
+.section-check{
+	position: absolute;
+	top: 0%;
+	width: 100%;
+	height: 100%;
+	opacity: 0.8;
+	border-radius: 1rem;
+	/*background-color: rgba(255,255,255,0.9);*/
+	padding: 1rem 0;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	color: white;
+}
+/* width */
+.section-check::-webkit-scrollbar {
+  width: 1vw;
+  left: 0%;
+}
+/* Track */
+.section-check::-webkit-scrollbar-track {
+  background:white;
+}
+
+/* Handle */
+.section-check::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.4);
+  /*border-radius: 0.3vw;*/
+}
+.check{
+	font-size: 2vw;
+	margin-top: 10vw;
+	margin-right: 0vw;
+	width: 100%;
+	justify-content: space-between;
+}
+.container-checks{
+	width: 10%;
+	padding-left: 10%;
+}
+.descricao-check{
+	width: 80%;
+}
+
+.check--banco{
+	display: none;
+	/*margin-left: 10%;*/
+	justify-content: center;
+}
+.check--banco .descricao-check{
+	width: 70%;
+}
+
+
+.section-aplicacoes-diferenciadas{
+	margin-top: 10vw;
+}
+select,input{
+	width: 80%;
+	text-align: center;
+	background-color: white;
+	font-size: 2vw;
+	margin-top: 4vw;
+	background-color: rgba(255,255,255,0.9);
+	border-radius: 2vw;
+	padding: 1vw 0vw;
+}
+
+.section-lupa,.section-slot,.section-selfie{
+	display: none;
+	margin-bottom: 10vw;
+}
+
+#btnEnviar{
+	background-color: var(--azul);
+	color: white;
+	width: 30%;
+	padding: 1vw 0vw;
+	border-radius: 2vw;
+	font-size: 2vw;
+	margin-bottom: 10vw;
+}
+.footer-checks{
+	margin-top: 10vw;
+	border-top: solid 0.5vw white;
+	padding: 5.5vw 0vw 0vw 0vw;
+}
+.footer-checks select,.footer-checks input{
+	margin-bottom: 5vw;
+}
+.txt-obs{
+	font-size: 2vw;
+	color: red;
+	font-weight: bold;
+	margin-bottom: 5vw;
+	transition: all 0.5s;
+}
+
+@media only screen and (max-width: 800px) {
+  	h1{
+		font-size: 7vw;
+	}
+	h2{
+		font-size: 6vw;
+	}
+	.check{
+		font-size: 5vw;
+	}
+	.container-checks{
+		width: 10%;
+		padding-left: 10%;
+	}
+	.descricao-check{
+		width: 80%;
+	}
+
+
+	.section-aplicacoes-diferenciadas{
+		margin-top: 10vw;
+	}
+	select,input{
+		font-size: 4.5vw;
+	}
+
+	#btnEnviar{
+		font-size: 5vw;
+	}
+	.txt-obs{
+		font-size: 5vw;
+	}
+}

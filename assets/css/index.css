@@ -1,0 +1,60 @@
+:root{
+	--azul: #069edb;
+	--roxo: #91288e;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+html,body{
+	cursor: default;
+	border: none;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /*background-color: purple;*/
+    font-family: Arial;
+    background-size: cover;
+    /*background-image: url("../img/bg.jpg");*/
+    background-image: url("../img/bg-blur.png");
+}
+
+textarea:focus, input:focus, button:focus{
+    outline: none;
+}
+a{
+	text-decoration: none !important;
+	color: unset;
+}
+.container{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.section-centralizar{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.d-flex{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.d-flex[style*='display: block']{
+    display: flex !important;
+}
+.flex-column{
+	flex-direction: column;
+}
+.w-100{
+	width: 100%;
+}

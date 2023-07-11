@@ -1,0 +1,79 @@
+.field-checkbox{
+  margin: 1% 14% 0 0;
+  color: var(--roxo);
+
+}
+.field-checkbox .field {
+  position: relative;
+  /* left: 2px; */
+  top: 34px;
+  opacity: 0;
+  width: 36px;
+  height: 21px;
+  /* margin-top: 0%; */
+   display: none; 
+}
+
+.field-checkbox .field:not(:checked) + .description,
+.field-checkbox .field:checked + .description {
+	display: flex;
+	align-items: center;
+	/*column-gap: 20px;*/
+  font-size: 15vw;
+	/* font-size: 33px; */
+	/* color: #fff; */
+	/* font-family: OpenSans; */
+}
+
+.field-checkbox .field:not(:checked) + .description::before,
+.field-checkbox .field:checked + .description::before {
+  /*margin-right: -13px;*/
+} 
+
+.field-checkbox .field:not(:checked) + .description::before {
+  content: "";
+  display: block;
+  width: 2vw;
+  height: 2vw;
+  border: 0.5vmin solid var(--roxo);
+  background-color: transparent;
+}
+
+.field-checkbox .field:checked + .description::before {
+  content: "✔";
+  width: 2vw;
+  height: 2vw;
+  border: 0.5vw solid var(--roxo);
+  font-size: 2vw;
+  background-color: var(--roxo);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.check--banco .field-checkbox .field:not(:checked) + .description::before {
+  width: 4vw;
+  height: 4vw;
+}
+
+.check--banco .field-checkbox .field:checked + .description::before {
+  width: 4vw;
+  height: 4vw;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .field-checkbox .field:not(:checked) + .description::before {
+    width: 4vw;
+    height: 4vw;
+  }
+
+  .field-checkbox .field:checked + .description::before {
+    width: 4vw;
+    height: 4vw;
+    font-size: 4vw;
+  }
+}
