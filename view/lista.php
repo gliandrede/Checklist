@@ -1,8 +1,8 @@
 <link rel="stylesheet" href="assets/css/lista.css">
 
 <section class="section-centralizar">
-    <div class="d-flex w-100 container-header">
-        <h1>LISTA</h1>
+    <div class="d-flex w-100 container-header flex-column">
+        <div class="d-flex"><!-- <h1>perfil</h1> --><h1>LISTA</h1></div>
         <div class="d-flex btn-add-check" onclick="location.href='check'">Novo checklist +</div>
         <div class="container-btns-pages d-flex">
             <div class="<?= ($btnBack)?'':'disabled' ?>" onclick="location.href='<?= ($btnBack)?$linkBack:'' ?>'">Anterior</div><div class="<?= ($btnNext)?'':'disabled' ?>" onclick="location.href='<?= ($btnNext)?$linkNext:'' ?>'">Próximo</div>

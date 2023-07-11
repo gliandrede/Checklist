@@ -187,23 +187,43 @@
 
         <section class="footer-checks d-flex flex-column">
 
-            <h2>Forma do teste</h2>
-            <select id="slcFormaTeste">
-                <option selected value="presencial">Presencial</option>
-                <option value="remoto">Remoto</option>
-            </select>
-            <h2>Pessoa que testou*</h2>
-            <input id="txtPessoaTestou" type="text" name="" maxlength="20">
-            <h2>Cliente*</h2>
-            <input id="txtCliente" type="text" name="" maxlength="20">
-            <h2>Tela*</h2>
-            <input id="txtTela" type="text" name="" maxlength="20">
-            <h2>ID Teamviewer</h2>
-            <input id="txtIdTeam" type="text" name="" maxlength="20">
-            <h2>ID AnyDesk*</h2>
-            <input id="txtIdDesk" type="text" name="" maxlength="20">
-            <span class="txt-obs">*Campos obrigatórios</span>
-            <button id="btnEnviar" onclick="sendForm()">ENVIAR</button>
+            <div>
+                <h2>Forma do teste</h2>
+                <select id="slcFormaTeste">
+                    <option selected value="presencial">Presencial</option>
+                    <option value="remoto">Remoto</option>
+                </select>
+            </div>
+
+            <div>
+                <h2>Pessoa que testou*</h2>
+                <input id="txtPessoaTestou" type="text" name="" maxlength="20">
+            </div>
+
+            <div>
+                <h2>Cliente*</h2>
+                <input id="txtCliente" type="text" name="" maxlength="20">
+            </div>
+
+            <div>
+                <h2>Tela*</h2>
+                <input id="txtTela" type="text" name="" maxlength="20">
+            </div>
+
+            <div>
+                <h2>ID Teamviewer</h2>
+                <input id="txtIdTeam" type="text" name="" maxlength="20">
+            </div>
+
+            <div>
+                <h2>ID AnyDesk*</h2>
+                <input id="txtIdDesk" type="text" name="" maxlength="20">
+            </div>
+
+            <div class="d-flex">
+                <span class="txt-obs">*Campos obrigatórios</span>
+                <button id="btnEnviar" onclick="sendForm()">ENVIAR</button>
+            </div>
         </section>
     </section>
 </section>
