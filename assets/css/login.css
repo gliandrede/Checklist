@@ -60,7 +60,7 @@ form .campo input{
 	font-size: 2vw;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) and (orientation: portrait){
   	.section-login{
 		width: 80%;
 		height: 90%;

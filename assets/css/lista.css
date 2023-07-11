@@ -4,6 +4,10 @@ h1{
 	font-size: 3vw;
 	color: var(--azul);
 }
+.container-header{
+	/*background-color: red;*/
+	height: 25%;
+}
 .btn-add-check{
 	/*position: absolute;*/
 	right: 5%;
@@ -138,6 +142,7 @@ svg{
 	.container-header{
 		flex-direction: column;
 		justify-content: center;
+		height: auto;
 	}
 	.btn-add-check{
 		right: auto;
