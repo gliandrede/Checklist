@@ -86,3 +86,33 @@ form .campo input{
 		font-size: 5.5vw;
 	}
 }
+
+@media only screen and (min-width: 1000px) and (min-height: 1800px) {
+  	.section-cadastro{
+		width: 80%;
+		height: 70%;
+	}
+	h1{
+		font-size: 8.5vw;
+	}
+	form{
+		height: 90%;
+	}
+	form .campo{
+		font-size: 6vw;
+	}
+	form .campo input{
+		font-size: 6vw;
+		width: 100%;
+	}
+	#photo{
+		width: 100%;
+	}
+	#btnSend{
+		font-size: 5vw;
+		padding: 5% 10%;
+	}
+	#msgErro{
+		font-size: 5.5vw;
+	}
+}

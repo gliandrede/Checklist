@@ -178,3 +178,64 @@ select,input{
 		margin-bottom: 5vw;
 	}
 }
+
+
+
+@media only screen and (min-width: 1000px) and (min-height: 1800px) {
+  	h1{
+		font-size: 7vw;
+	}
+	h2{
+		font-size: 6vw;
+	}
+	.check{
+		font-size: 5vw;
+		margin-top: 10vw;
+	}
+	.container-checks{
+		width: 10%;
+		padding-left: 10%;
+	}
+	.descricao-check{
+		width: 80%;
+	}
+
+
+	.section-aplicacoes-diferenciadas{
+		margin-top: 10vw;
+	}
+	.footer-checks{
+		margin-top: 10vw;
+		border-top: solid 0.5vw white;
+		padding: 5.5vw 0vw 0vw 0vw;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: cenetr;
+	}
+	.footer-checks div{
+		width: 80%;
+	}
+	.footer-checks div:last-child{
+		width: 80%;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.footer-checks select,.footer-checks input{
+		margin-bottom: 5vw;
+		width: 100%;
+	}
+	select,input{
+		font-size: 4.5vw;
+	}
+
+	#btnEnviar{
+		font-size: 5vw;
+		margin-bottom: 10vw;
+	}
+	.txt-obs{
+		font-size: 5vw;
+		align-self: center;
+		margin-right: 0%;
+		margin-bottom: 5vw;
+	}
+}

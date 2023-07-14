@@ -27,13 +27,14 @@
                             <div><b>Banco de dados</b> : <?= ($form['hasDatabase'])?"sim":"não" ?></div>
                             <div><b>Tipo de aplicação</b>: <?= $form['applicationType'] ?></div>
                             <div><b>Tipo de teste</b>: <?= $form['testType'] ?></div>
-                            <div><b>Pessoa que testou</b>: <?= $form['personTested'] ?></div>
+                            <div><b>Líder do projeto</b>: <?= $form['personTested'] ?></div>
                         </div>
                         <div class="line-division"></div>
                         <div class="infos-screen d-flex flex-column">
                             <div><b>Tela</b>: <?= $form['tela'] ?></div>
                             <div><b>ID TeamViewer</b>: <?= $form['idTeamviewer'] ?></div>
                             <div><b>ID AnyDesk</b>: <?= $form['idAnydesk'] ?></div>
+                            <div><b>Senha AnyDesk</b>: Gld123*2</div>
                             <div class="btn-update">Alterar</div>
                         </div>
                     </div>

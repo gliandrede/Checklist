@@ -5,18 +5,35 @@
         <h1>CHECKLIST</h1>
         <section class="footer-checks d-flex flex-column">
             <input type="text" id="idCheck" name="idCheck" hidden value="<?= $infos['idCheck'] ?>" readonly>
-            <h2>Pessoa que testou*</h2>
-            <input id="txtPessoaTestou" type="text" name="" value="<?= $infos['personTested'] ?>">
-            <h2>Cliente*</h2>
-            <input id="txtCliente" type="text" name="" value="<?= $infos['client'] ?>">
-            <h2>Tela*</h2>
-            <input id="txtTela" type="text" name="" value="<?= $infos['tela'] ?>">
-            <h2>ID Teamviewer</h2>
-            <input id="txtIdTeam" type="text" name="" value="<?= $infos['idTeamviewer'] ?>">
-            <h2>ID AnyDesk*</h2>
-            <input id="txtIdDesk" type="text" name="" value="<?= $infos['idAnydesk'] ?>">
-            <span class="txt-obs">*Campos obrigatórios</span>
-            <button id="btnEnviar" onclick="sendForm()">ENVIAR</button>
+            <div>
+                <h2>Pessoa que testou*</h2>
+                <input id="txtPessoaTestou" type="text" name="" value="<?= $infos['personTested'] ?>">
+            </div>
+
+            <div>
+                <h2>Cliente*</h2>
+                <input id="txtCliente" type="text" name="" value="<?= $infos['client'] ?>">
+            </div>
+
+            <div>
+                <h2>Tela*</h2>
+                <input id="txtTela" type="text" name="" value="<?= $infos['tela'] ?>">
+            </div>
+            
+            <div>
+                <h2>ID Teamviewer</h2>
+                <input id="txtIdTeam" type="text" name="" value="<?= $infos['idTeamviewer'] ?>">
+            </div>
+
+            <div>
+                <h2>ID AnyDesk*</h2>
+                <input id="txtIdDesk" type="text" name="" value="<?= $infos['idAnydesk'] ?>">
+            </div>
+            
+            <div class="d-flex">
+                <span class="txt-obs">*Campos obrigatórios</span>
+                <button id="btnEnviar" onclick="sendForm()">ENVIAR</button>
+            </div>
         </section>
     </section>
 </section>

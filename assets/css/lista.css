@@ -223,3 +223,94 @@ svg{
 		font-size: 5vw;
 	}
 }
+
+
+@media only screen and (min-width: 1000px) and (min-height: 1800px){
+  	h1{
+  		margin-top: 3%;
+		font-size: 7vw;
+	}
+	.container-header{
+		flex-direction: column;
+		justify-content: center;
+		height: auto;
+	}
+	.btn-add-check{
+		right: auto;
+		top: auto;
+		margin-top: 2%;
+		position: relative;
+		font-size: 5vw;
+	}
+	.container-btns-pages{
+		position: relative;
+		left: -2%;
+		top: 0%;
+		color: white;
+		font-size: 4vw;
+		font-weight: bold;
+		margin-top: 2%;
+	}
+	.container-btns-pages div{
+		/*margin-left: 7%;*/
+	}
+	.section-list{
+		top: 2%;
+		position: relative;
+		width: 100%;
+		height: 85%;
+	}
+	.container-form-uploaded{
+		width: 90%;
+		height: 80vh;
+		margin-bottom: 15%;
+		flex-direction: column;
+	}
+	.container-photo-user{
+		height: 20%;
+		width: 35%;
+	}
+	.container-form-uploaded img{
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+	}
+	svg{
+		display: none;
+	}
+	.container-infos{
+		width: 100%;
+		height: 90%;
+		align-items: flex-start;
+		z-index: 3;
+	}
+	.container-infos .name-user {
+		font-size: 6vw;
+		width: 100%;
+		text-align: center;
+		font-weight: bold;
+	}
+	.container-infos>div{
+		width: 94%;
+		padding-left: 3%;
+		padding-right: 3%;
+		height: 90%;
+		margin-left: 0%;
+		font-size: 6vw;
+		flex-direction: column;
+	}
+	.infos{
+		width: 100%;
+	}
+	.line-division{
+		width: 100%;
+		background-color: var(--azul);
+		height: 0.5%;
+	}
+	.infos-screen{
+		width: 100%;
+	}
+	.date-uploaded-form{
+		font-size: 5vw;
+	}
+}

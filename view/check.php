@@ -196,7 +196,7 @@
             </div>
 
             <div>
-                <h2>Pessoa que testou*</h2>
+                <h2>Líder do projeto*</h2>
                 <input id="txtPessoaTestou" type="text" name="" maxlength="20">
             </div>
 
@@ -242,7 +242,7 @@
         });
 
 
-        $('select').on('change', function() {
+        $('#slcTipoAplicacao').on('change', function() {
             // alert( this.value );
             $(".section-lupa").hide("fade",500)
             $(".section-slot").hide("fade",500)
